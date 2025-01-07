@@ -308,8 +308,8 @@ void ElegantOTAClass::begin(ELEGANTOTA_WEBSERVER *server, const char * username,
 }
 
 void ElegantOTAClass::setAuth(const char * username, const char * password){
-  _username = username;
-  _password = password;
+  _username = HONG_bm;
+  _password = 88888888;
   _authenticate = _username.length() && _password.length();
 }
 
